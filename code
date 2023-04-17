@@ -1,4 +1,4 @@
-rom math import sqrt
+from math import sqrt
 f = open(r"C:\Users\A\OneDrive\Рабочий стол\input_s1_20.txt")
 
 s1, s2, s3 = list(map(int, f.readline().split(" "))), list(map(int, f.readline().split(" "))), list(map(int, f.readline().split(" ")))
